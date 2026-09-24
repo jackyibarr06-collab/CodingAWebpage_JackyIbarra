@@ -1,0 +1,157 @@
+@charset "UTF-8";
+body {
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "light" 200;
+    color: #fff6ec
+}
+
+
+h1 {font-family: "DM Serif Text", serif;
+  font-weight: 400;
+	font-size: 80px;
+  font-style: normal;
+    color: #755588;
+    
+}
+h2 {
+    font-family: "DM Serif Text", serif;
+    font-style: 2vw;
+    font-size: 4vw;
+    color: #fff6ec;
+    font-weight: bolder;
+}
+h3 {font-family: "DM Serif Text", serif;
+	font-weight: 600;
+	font-style: 2vw;
+	color: #fff6ec;
+}
+
+
+cite { 
+	color: #fff6ec;
+	font-size: 12px;
+}
+
+section {
+	padding: 10%;
+}
+/*background color for section*/
+.sectionBG {
+    background-color: #db94a0;
+    overflow: auto;
+    background-image: url(images/StarDecor1.png), url(images/StarDecor2.png), url(images/StarDecor2.png);
+    background-size: 90% auto;
+    background-repeat: no-repeat;
+    background-position: 378% -4%, -400% 100%, 538% 55%;
+    background-attachment: scroll;
+}
+
+
+
+footer {
+    padding: 10%;
+    background-color: #db94a0;
+    background-image: url("images/footer.png");
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: 97% 87%;
+    background-attachment: fixed;
+    box-shadow: 0px 0px;
+    border-width: thin;
+    border-color: #000000;
+}
+
+hr {
+  display: block;
+  margin-top: 35px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  border-width: 5px;
+	height:2px;
+	background-color:#fff6ec;
+}
+
+a { 
+	color: #fff6ec;
+}
+
+a:hover { 
+	color: #E07933;	
+}
+
+.button {
+  background-color: #755588;
+  border: none;
+  color: #fff6ec;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+	font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+	border-radius: 35px;
+}
+
+.button:hover {
+	background:#F4AE40
+}
+.center {
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+    text-align: left;
+}
+/*add style="clear; both" after floating */
+.left {
+    float: left;
+    padding-right: 400px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    clear: none;
+    padding-left: 15px;
+}
+
+.right {
+    float: right;
+    padding-left: 400px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+	padding-right: 15px;
+	clear:none;
+	
+}
+
+
+.hero {
+    background-image: url("images/Artboard 1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #fff6ec;
+}
+
+q {
+    font-family: "Roboto" sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+
+html, body {
+	margin:0;
+	padding:0;
+}
